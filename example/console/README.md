@@ -1,0 +1,1 @@
+This is a simple example of using the nsolid console.  To deploy run `gcloud preview app deploy ./app.yaml --set-default --project=YOUR_PROJECT`.
