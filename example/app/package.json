@@ -1,0 +1,11 @@
+{
+  "name": "nsolid-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "gcloud preview app deploy app.yaml --set-default --project nsolid-demo"
+  },
+  "dependencies": {
+    "express": "~4.12.4"
+  }
+}
