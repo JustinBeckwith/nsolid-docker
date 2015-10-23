@@ -11,6 +11,7 @@ RUN mkdir /nodejs && curl https://nsolid-download.nodesource.com/download/nsolid
 # Set env vars
 ENV PATH $PATH:/nodejs/bin
 ENV NODE_ENV production
+ENV PORT 8080
 WORKDIR /app
 
 # Go go gadget nsolid|node
